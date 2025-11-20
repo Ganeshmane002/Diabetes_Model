@@ -6,32 +6,32 @@ Built using Python, Pandas, Scikit-Learn, and Streamlit.
 
 🚀 Project Features
 
-Handles missing values (0 → NaN → Median Imputation)
-Encodes categorical features (BMI category, Age group)
-Scales numerical features using StandardScaler
-Uses Logistic Regression for prediction
-Interactive Streamlit Web App
+Handles missing values (0 → NaN → Median Imputation),
+Encodes categorical features (BMI category, Age group),
+Scales numerical features using StandardScaler,
+Uses Logistic Regression for prediction,
+Interactive Streamlit Web App.
 
 
 📂 Dataset
 
-768 rows × 9 columns
-Target column: Outcome
-0 → No Diabetes
-1 → Diabetes
-Missing values present as 0 in some columns: Glucose, BloodPressure, SkinThickness, Insulin, BMI
+768 rows × 9 columns,
+Target column: Outcome,
+0 → No Diabetes,
+1 → Diabetes,
+Missing values present as 0 in some columns: Glucose, BloodPressure, SkinThickness, Insulin, BMI.
 
 
 🧠 Model Workflow
 
-Load dataset
-Replace 0 with NaN
-Apply median imputation
-One-hot encode BMI & Age groups
-Train-test split (80–20, stratified)
-Scale features
-Train Logistic Regression
-Deploy with Streamlit
+Load dataset,
+Replace 0 with NaN,
+Apply median imputation,
+One-hot encode BMI & Age groups,
+Train-test split (80–20, stratified),
+Scale features,
+Train Logistic Regression,
+Deploy with Streamlit.
 
 
 ▶️ How to Run Locally
